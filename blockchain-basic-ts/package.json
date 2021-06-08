@@ -1,0 +1,25 @@
+{
+  "name": "typescript-node-boilerplate",
+  "version": "1.0.0",
+  "description": "⚡️ minimal boilerplate based on typescript with node ⚡️",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "tsc",
+    "dev": "tsc-watch --onSuccess \"node dist/src/app.js\"",
+    "start": "node dist/src/app.js"
+  },
+  "author": "yoon sang seok - amamov",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^15.3.0",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "tsc": "^2.0.3",
+    "tsc-watch": "^4.2.9",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "dotenv": "^9.0.2"
+  }
+}
