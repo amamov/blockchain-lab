@@ -19,7 +19,7 @@ def print_block_chain(chains):
             else:
                 print(f"{key:15}{value}")
 
-    print(f"{'*'*59}")
+    print(f"{'*'*100}")
 
 
 if __name__ == "__main__":

@@ -8,6 +8,8 @@ base58 = "*"
 ecdsa = "*"
 flask = "*"
 requests = "*"
+pyupbit = "*"
+pyjwt = "*"
 
 [dev-packages]
 flake8 = "*"
